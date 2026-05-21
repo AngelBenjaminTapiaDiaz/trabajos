@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="AgroCasanare Digital - Productos agropecuarios de calidad desde Yopal Casanare.">
+
+    <title>AgroCasanare Digital - Sabor del Llano</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- MENSAJE BIENVENIDA -->
+    <div id="mensajeBienvenida" class="mensaje-bienvenida">
+        ¡Bienvenido a AgroCasanare Digital!
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="logo-container">
+            <img src="img/logo.jpg" alt="Logotipo AgroCasanare Digital" class="logo">
+            <h1>AgroCasanare Digital</h1>
+        </div>
+
+        <!-- BOTON HAMBURGUESA -->
+        <button class="menu-toggle" aria-label="Abrir menú">
+            ☰
+        </button>
+
+        <!-- MENU -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#cotizador">Cotizador</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- BOTON TEMA -->
+<button id="botonTema" class="boton-tema">
+
+    🌙
+
+</button>
+
+    </header>
+
+    <!-- MAIN -->
+    <main id="inicio">
+
+        <!-- HERO -->
+        <section class="hero">
+            <h2>Sabor y tradición del Llano Colombiano</h2>
+
+            <p>
+                Comercializamos productos agrícolas y ganaderos de alta calidad
+                provenientes del corazón de Casanare.
+            </p>
+
+            <a href="#cotizador" class="btn-principal">
+                Cotizar ahora
+            </a>
+        </section>
+        <section class="estadisticas">
+
+    <div class="card-estadistica">
+
+        <img src="img/agricultura.jpg" alt="Agricultura">
+
+        <h3>+15 años</h3>
+
+        <p>
+            Impulsando el agro casanareño.
+        </p>
+
+    </div>
+
+    <div class="card-estadistica">
+
+        <img src="img/clientes.jpg" alt="Clientes satisfechos">
+
+        <h3>+500 clientes</h3>
+
+        <p>
+            Confían en nuestros productos.
+        </p>
+
+    </div>
+
+    <div class="card-estadistica">
+
+        <img src="img/calidad.jpg" alt="Calidad certificada">
+
+        <h3>100% Calidad</h3>
+
+        <p>
+            Productos frescos y certificados.
+        </p>
+
+    </div>
+
+</section>
+        <!-- ESTADISTICAS 
+<section class="seccion">
+
+    <div class="grid-productos">
+
+        <article class="tarjeta-producto">
+            <h3>+15 años</h3>
+            <p>Impulsando el agro casanareño.</p>
+        </article>
+
+        <article class="tarjeta-producto">
+            <h3>+500 clientes</h3>
+            <p>Confían en nuestros productos.</p>
+        </article>
+
+        <article class="tarjeta-producto">
+            <h3>100% Calidad</h3>
+            <p>Productos frescos y certificados.</p>
+        </article>
+
+    </div>
+
+</section>-->
+
+        <!-- NOSOTROS -->
+        <section id="nosotros" class="seccion">
+
+            <article>
+                <h2>Nosotros</h2>
+
+                <p>
+                    AgroCasanare Digital es una empresa familiar ubicada en Yopal,
+                    Casanare, dedicada a la producción y comercialización de productos
+                    agropecuarios de excelente calidad.
+                </p>
+
+                <p>
+                    Nuestra misión es llevar los sabores auténticos del llano colombiano
+                    a cada hogar, apoyando el desarrollo rural y promoviendo el trabajo
+                    de los productores locales.
+                </p>
+            </article>
+
+        </section>
+
+        <!-- PRODUCTOS -->
+        <section id="productos" class="seccion">
+
+            <h2>Nuestros Productos</h2>
+
+            <div class="grid-productos">
+
+           <section id="productos" class="seccion">
+
+    <h2>Nuestros Productos</h2>
+
+    <div class="grid-productos">
+
+        <!-- CARNE -->
+        <article class="tarjeta-producto">
+
+            <img src="img/carne.jpg" alt="Carne premium">
+
+            <div class="contenido-producto">
+
+                <span class="categoria">Ganadería</span>
+
+                <h3>Carne Premium</h3>
+
+                <p>
+                    Carne de res de alta calidad proveniente
+                    de ganadería sostenible del llano.
+                </p>
+
+                <p class="precio">$35.000 / Kg</p>
+
+                <button class="btn-producto">
+                    Ver producto
+                </button>
+
+            </div>
+
+        </article>
+
+        <!-- CERDO -->
+        <article class="tarjeta-producto">
+
+            <img src="img/cerdo.jpg" alt="Carne de cerdo">
+
+            <div class="contenido-producto">
+
+                <span class="categoria">Ganadería</span>
+
+                <h3>Carne de Cerdo</h3>
+
+                <p>
+                    Cerdo criollo alimentado naturalmente,
+                    ideal para parrilla y cocina tradicional.
+                </p>
+
+                <p class="precio">$28.000 / Kg</p>
+
+                <button class="btn-producto">
+                    Ver producto
+                </button>
+
+            </div>
+
+        </article>
+
+        <!-- POLLOS -->
+        <article class="tarjeta-producto">
+
+            <img src="img/pollos.jpg" alt="Pollos criollos">
+
+            <div class="contenido-producto">
+
+                <span class="categoria">Avicultura</span>
+
+                <h3>Pollos Criollos</h3>
+
+                <p>
+                    Pollos criados en campo abierto,
+                    con alimentación natural.
+                </p>
+
+                <p class="precio">$40.000 / Unidad</p>
+
+                <button class="btn-producto">
+                    Ver producto
+                </button>
+
+            </div>
+
+        </article>
+
+        <!-- ARROZ -->
+        <article class="tarjeta-producto">
+
+            <img src="img/arroz.jpg" alt="Arroz llanero">
+
+            <div class="contenido-producto">
+
+                <span class="categoria">Agricultura</span>
+
+                <h3>Arroz Llanero</h3>
+
+                <p>
+                    Arroz cultivado en tierras fértiles
+                    del departamento de Casanare.
+                </p>
+
+                <p class="precio">$8.000 / Kg</p>
+
+                <button class="btn-producto">
+                    Ver producto
+                </button>
+
+            </div>
+
+        </article>
+
+        <!-- MAIZ -->
+        <article class="tarjeta-producto">
+
+            <img src="img/maiz.jpg" alt="Maíz">
+
+            <div class="contenido-producto">
+
+                <span class="categoria">Agricultura</span>
+
+                <h3>Maíz Amarillo</h3>
+
+                <p>
+                    Maíz fresco y natural producido
+                    por campesinos de la región.
+                </p>
+
+                <p class="precio">$6.000 / Kg</p>
+
+                <button class="btn-producto">
+                    Ver producto
+                </button>
+
+            </div>
+
+        </article>
+
+        <!-- CAÑA -->
+        <article class="tarjeta-producto">
+
+            <img src="img/cana.jpg" alt="Caña de azúcar">
+
+            <div class="contenido-producto">
+
+                <span class="categoria">Agricultura</span>
+
+                <h3>Caña de Azúcar</h3>
+
+                <p>
+                    Caña dulce y fresca utilizada
+                    para panela y productos artesanales.
+                </p>
+
+                <p class="precio">$5.000 / Unidad</p>
+
+                <button class="btn-producto">
+                    Ver producto
+                </button>
+
+            </div>
+
+        </article>
+
+        <!-- LACTEOS -->
+        <article class="tarjeta-producto">
+
+            <img src="img/lacteos.jpg" alt="Lácteos frescos">
+
+            <div class="contenido-producto">
+
+                <span class="categoria">Lácteos</span>
+
+                <h3>Lácteos Frescos</h3>
+
+                <p>
+                    Leche, queso y derivados
+                    elaborados artesanalmente.
+                </p>
+
+                <p class="precio">$15.000 / Unidad</p>
+
+                <button class="btn-producto">
+                    Ver producto
+                </button>
+
+            </div>
+
+        </article>
+
+        <!-- JARRAS -->
+        <article class="tarjeta-producto">
+
+            <img src="img/jarras.jpg" alt="Jarras de barro">
+
+            <div class="contenido-producto">
+
+                <span class="categoria">Artesanías</span>
+
+                <h3>Jarras de Barro</h3>
+
+                <p>
+                    Artesanías elaboradas a mano
+                    por artesanos del llano.
+                </p>
+
+                <p class="precio">$45.000</p>
+
+                <button class="btn-producto">
+                    Ver producto
+                </button>
+
+            </div>
+
+        </article>
+
+        <!-- CANASTAS -->
+        <article class="tarjeta-producto">
+
+            <img src="img/canastas.jpg" alt="Canastas de paja">
+
+            <div class="contenido-producto">
+
+                <span class="categoria">Artesanías</span>
+
+                <h3>Canastas de Paja</h3>
+
+                <p>
+                    Canastas tejidas manualmente
+                    con fibras naturales.
+                </p>
+
+                <p class="precio">$35.000</p>
+
+                <button class="btn-producto">
+                    Ver producto
+                </button>
+
+            </div>
+
+        </article>
+
+        <!-- MANILLAS -->
+        <article class="tarjeta-producto">
+
+            <img src="img/manillas.jpg" alt="Manillas artesanales">
+
+            <div class="contenido-producto">
+
+                <span class="categoria">Artesanías</span>
+
+                <h3>Manillas Artesanales</h3>
+
+                <p>
+                    Accesorios típicos hechos a mano
+                    con identidad llanera.
+                </p>
+
+                <p class="precio">$12.000</p>
+
+                <button class="btn-producto">
+                    Ver producto
+                </button>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+        <!-- ASIDE -->
+        <aside class="aside">
+
+            <h2>Datos Curiosos</h2>
+
+            <ul>
+                <li>Casanare es uno de los mayores productores de arroz en Colombia.</li>
+                <li>La ganadería es una de las principales actividades económicas de Yopal.</li>
+                <li>El llano colombiano destaca por su riqueza agrícola y cultural.</li>
+            </ul>
+
+        </aside>
+
+        <!-- COTIZADOR -->
+        <section id="cotizador" class="seccion">
+
+            <h2>Cotizador de Pedido</h2>
+
+            <form id="formularioCotizador">
+
+                <!-- NOMBRE -->
+                <div class="grupo-formulario">
+                    <label for="nombre">Nombre del cliente:</label>
+
+                    <input type="text" id="nombre" required>
+                </div>
+
+                <!-- PRODUCTO -->
+                <div class="grupo-formulario">
+
+                    <label for="producto">Producto:</label>
+
+                    <select id="producto">
+
+                        <option value="35000">Carne Premium</option>
+                        <option value="8000">Arroz Llanero</option>
+                        <option value="15000">Lácteos Frescos</option>
+
+                    </select>
+
+                </div>
+
+                <!-- CANTIDAD -->
+                <div class="grupo-formulario">
+
+                    <label for="cantidad">Cantidad:</label>
+
+                    <input type="number" id="cantidad" min="1" required>
+
+                </div>
+
+                <!-- BOTON -->
+                <button type="submit" class="btn-principal">
+                    Calcular pedido
+                </button>
+
+            </form>
+
+            <!-- MENSAJES -->
+            <div id="mensajeError"></div>
+
+            <!-- RESULTADO -->
+            <div id="resultado"></div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contacto" class="footer">
+
+        <p>📍 Yopal, Casanare - Colombia</p>
+
+        <p>📞 +57 320 000 0000</p>
+
+        <p>📧 contacto@agrocasanare.com</p>
+
+        <p>
+            Síguenos en redes sociales:
+            Facebook | Instagram | WhatsApp
+        </p>
+
+        <p>
+            © <span id="anioActual"></span> AgroCasanare Digital
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
